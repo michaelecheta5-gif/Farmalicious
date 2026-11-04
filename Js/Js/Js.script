@@ -1,0 +1,24 @@
+console.log("JavaScript file is connected");
+
+const testimonialitems = document.querySelectorAll(".testimonial-item-reveal");
+
+const cardwatcher = new IntersectionObserver((enteries) => 
+{
+   enteries.forEach((entery) => 
+   {
+    if(entery.isIntersecting)
+    {
+        entery.target.classList.add("show");
+        cardwatcher.unobserve(entery.target);
+    }
+   });
+
+  
+});
+
+testimonialitems.forEach(item => {
+   cardwatcher.observe(item);
+});
+
+
+
