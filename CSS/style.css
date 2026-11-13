@@ -1617,6 +1617,7 @@ div.story-item{
 
 .petting-zoo{
     flex:1.5;
+    min-width: 0;
 }
 
 .petting-zoo img{
