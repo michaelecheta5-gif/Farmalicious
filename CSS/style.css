@@ -1650,3 +1650,11 @@ div.story-item{
     display: inline-block;
     padding: 12px 24px;
 }
+
+.location-container{
+    background-color:  #F8F4EC;
+}
+
+.location-container .explore-1{
+    border-radius: 20px;
+}
