@@ -1629,3 +1629,18 @@ div.story-item{
 
 .petting-zoo-container{
     background-color:  #F8F4EC;
+}
+
+.explore-1-span{
+    font-size: 13px;
+    font-colour:  #2F5233;
+    line-height: 1.3;
+}
+
+.explore-1-content h2{
+    font-size: 34px;
+}
+
+.explore-1-content p{
+    font-size: 15px;
+}
