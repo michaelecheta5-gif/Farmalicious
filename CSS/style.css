@@ -1619,3 +1619,10 @@ div.story-item{
     flex:1.5;
 }
 
+.petting-zoo img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
