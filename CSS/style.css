@@ -1657,4 +1657,5 @@ div.story-item{
 
 .location-container .explore-1{
     border-radius: 20px;
+    overflow: hidden;
 }
