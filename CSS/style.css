@@ -1644,3 +1644,9 @@ div.story-item{
 .explore-1-content p{
     font-size: 15px;
 }
+
+.explore-1-content .btn{
+    margin-top: 20px;
+    display: inline-block;
+    padding: 12px 24px;
+}
