@@ -1601,3 +1601,13 @@ div.story-item{
     background-color: #F0EFE2;
     box-shadow: 0 4px 12px rgba(47, 82, 51, 0.10);
 }
+
+.explore-1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5%;
+    gap: 50px;
+    flex:1;
+}
+
