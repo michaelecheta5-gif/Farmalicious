@@ -1,3 +1,15 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 body {
     margin: 0;
 }
@@ -1739,4 +1751,9 @@ div.story-item{
     margin-top: 20px;
     display: inline-block;
     padding: 12px 24px;
+}
+
+.footer{
+    margin: 0;
+    width:100%;
 }
