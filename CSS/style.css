@@ -1794,8 +1794,44 @@ div.story-item{
 }
 
 .contact-1{
-    flex:1
+    flex:1;
+    padding:35px;
 }
+
+contact-1 h2{
+    font-size:36px;
+    color: #2F5233;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+contact-1 > p{
+    font-size:15px;
+    line-height: 1.7;
+    color:#666666;
+}
+
+.container-10{
+    margin-top:35px;
+    display:flex;
+    flex-direction:column;
+    gap:22px;
+    
+}
+
+.contact-icons i{
+    font-size: 20px;
+    color:#2F5233;
+    width: 22px;
+}
+
+.contact-icons p{
+    font-size: 14px;
+    color: #555555;
+    line-height:1.6;
+    margin: 0;
+}
+
 
 .contact-page{
     background-color:#F8F4EC;
