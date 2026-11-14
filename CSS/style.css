@@ -1819,9 +1819,9 @@ contact-1 > p{
     
 }
 
-.contact-icons i{
+.container-10.contact-icons i{
     font-size: 20px;
-    color:#2F5233;
+    color:#2F5233; !important;
     width: 22px;
 }
 
