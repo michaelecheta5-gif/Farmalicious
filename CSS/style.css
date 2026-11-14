@@ -1748,3 +1748,64 @@ div.story-item{
     margin: 0;
     width:100%;
 }
+
+.contact-2{
+    flex:1;
+    background-color: #F8F4EC;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(47, 82, 51, 0.08);
+}
+
+.contact-2 h2{
+    font-size: 28px;
+    color: #2F5233;
+    margin-bottom:10px;
+}
+
+.contact-2 p{
+    font-size: 14px;
+    color:#666666;
+    margin-bottom: 25px;
+}
+
+.contact-2 input,
+.contact-2 textarea{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(47, 82, 51, 0.20);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-family:inherit;
+    font-size: 14px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 60px;
+}
+
+.contact-1{
+    flex:1
+}
+
+.contact-page{
+    background-color:#F8F4EC;
+}
+    .contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2F5233;
+}
+
+.contact-2 input,
+.contact-2 textarea {
+    box-sizing: border-box;
+}
