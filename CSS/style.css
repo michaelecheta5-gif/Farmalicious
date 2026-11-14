@@ -1717,12 +1717,12 @@ div.story-item{
 }
 
 .explore-3-icons i{
-    font-size: 28px;
+    font-size: 36px; !important;
     color: #2F5233;
 }
 
 .explore-3-icons span{
-    font-size:12px;
+    font-size:12px; !important;
     font-weight: 600;
 }
     
